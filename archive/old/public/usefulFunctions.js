@@ -421,13 +421,6 @@ function singleTempoGenerator_numBeats(tempo, instNum, startTime, numBeats, a_bt
 function probability(n) {
   return !!n && Math.random() <= n;
 };
-// CONSTRAIN --------------------------------------
-function constrain(num, min, max){
-  const MIN = min || 1;
-  const MAX = max || 20;
-  const parsed = parseInt(num)
-  return Math.min(Math.max(parsed, MIN), MAX)
-}
 
 
 
